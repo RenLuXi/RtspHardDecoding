@@ -1,13 +1,18 @@
     Created by lucy on 2020/11/02
-#Rtsp库c++API封装
-    封装成python可直接import的动态链接库
-##操作流程
 
-    编译　`make`
+## Rtsp库c++API封装
+    封装成python可直接导入的动态链接库;
+    rockchip_rtsp可以获取rtsp视频流并调用硬件VPU自动解码;
+    rtsp更多资料 http://t.rock-chips.com/forum.php?mod=viewthread&tid=749&highlight=rtsp
+    
+    
+## 操作流程
+
+    编译　make
     
     运行示例`python3 rtsp.py`
     
-    清除编译内容　`make clean`
+    make clean
 
 ## 问题＆解决
     １．报错 mpp_log: decode_get_frame failed, return -8.
