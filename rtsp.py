@@ -1,6 +1,6 @@
 import pbcvt
 import cv2
-rtsp = pbcvt.Rtsp("rtsp://admin:tensorsight666@192.168.1.77:554/h264/ch1/main/av_stream","admin","tensorsight666")
+rtsp = pbcvt.Rtsp("rtsp address","user","passwd")
 print(" input parameters successfully ! ")
 temp = rtsp.rtsp_main()
 print(" loading finished ! ")
